@@ -1,4 +1,4 @@
-# Sales-Performance-Report-in-SQL
+# Sales-Performance-Report-in-MySQL
 #### <sup><b>DQLab</b></sup> Project Data Analysis for Retail: Sales Performance Report
 
 
