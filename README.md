@@ -1,12 +1,6 @@
 # Sales-Performance-Report-in-SQL
 #### <sup><b>DQLab</b></sup> Project Data Analysis for Retail: Sales Performance Report
 
-### > BACKGROUND ──
-
-<sup><b>DQLab</b></sup> Project, illustrating about a finance company that distributes financing to the community through branches of its company spread across various regions, there are agents in charge of finding and listing potential partners who will apply for loans to the company.
-
-this <b>project focuses on the performance of each branch of the company.</b>
-
 
 
 ### > A SIMPLE GUIDE STEP-BY-STEP DATASET QUERIES ──
@@ -16,7 +10,7 @@ this <b>project focuses on the performance of each branch of the company.</b>
 #### ⋈ DQLab Store Overall Performance <sup>[1<sup>st</sup> chapter]</sup> ──
 
 * Overall Performance by Year (2009 ─ 2012) <sup>[A]</sup>
-    * number of orders & total sales order completed
+    * Number of orders & total sales order completed
     
 * Overall Performance by Product Sub-category (2011 ─ 2012) <sup>[B]</sup>
 
@@ -25,10 +19,10 @@ this <b>project focuses on the performance of each branch of the company.</b>
 #### ⋈ DQLab Store Promotion Effectiveness and Efficiency <sup>[2<sup>st</sup> chapter]</sup> ──
 
 * Promotion Effectiveness and Efficiency by Years <sup>[A]</sup>
-    * calculate the burn rate of the promotion performed by overalls based on the year
+    * Calculate the burn rate of the promotion performed by overalls based on the year
     
 * Promotion Effectiveness and Efficiency by Product Sub Category <sup>[B]</sup>
-    * calculate the burn rate of the promotion performed by overalls based on sub-category
+    * Calculate the burn rate of the promotion performed by overalls based on sub-category
 
 ##
 
