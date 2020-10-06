@@ -1,5 +1,5 @@
 # Sales-Performance-Report-in-SQL
-DQLab Project Data Analysis for Retail: Sales Performance Report
+#### <sup><b>DQLab</b></sup> Project Data Analysis for Retail: Sales Performance Report
 
 ### > BACKGROUND ──
 
@@ -47,13 +47,11 @@ this <b>project focuses on the performance of each branch of the company.</b>
 
 
 
-### > LOAN DISBURSEMENT DATASET ──
+### > DQLAB_SALES_STORE DATASET ──
 
-#### ⋈ Load <sup><b>DQLab</b></sup> Dataset ::
+#### ⋈ About <sup><b>DQLab</b></sup> Dataset ::
 
-			⌐ df_loan <- read.csv('https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/loan_disbursement.csv', stringsAsFactors = F)
-	
-* `stringAsFactors` ⍽ to make the char. data type don't reformat to factor
+![screenshot](dqlab_sales_store_table.png)
 
 
 
