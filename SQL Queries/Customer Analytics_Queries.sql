@@ -1,6 +1,7 @@
 /*
-      Promotion Effectiveness and Efficiency by Years
-      Calculate the burn rate of the promotion performed by overalls based on the year
+	Customers Transactions per Year
+    		* Analysis of customer every year
+    		* Analysis of the number of new customers each year
 */
 
 SELECT
