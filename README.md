@@ -9,41 +9,34 @@ this <b>project focuses on the performance of each branch of the company.</b>
 
 
 
-### > A SIMPLE GUIDE STEP-BY-STEP DATASET PROCESSING (1) ──
+### > A SIMPLE GUIDE STEP-BY-STEP DATASET QUERIES ──
 
-#### →   Filtering the dataset, focused on the May 2020 time period
+##
 
-#### →   Create a summary per branch to see the best and worst five branches of data
+#### ⋈ DQLab Store Overall Performance <sup>[1<sup>st</sup> chapter]</sup> ──
 
-#### →   As branches increase each month, it is necessary to check the age & performance each of it
+* Overall Performance by Year (2009 ─ 2012) <sup>[A]</sup>
+    * number of orders & total sales order completed
+    
+* Overall Performance by Product Sub-category (2011 ─ 2012) <sup>[B]</sup>
 
-#### →   Looking for the worst branches for each age group
+##
 
+#### ⋈ DQLab Store Promotion Effectiveness and Efficiency <sup>[2<sup>st</sup> chapter]</sup> ──
 
+* Promotion Effectiveness and Efficiency by Years <sup>[A]</sup>
+    * calculate the burn rate of the promotion performed by overalls based on the year
+    
+* Promotion Effectiveness and Efficiency by Product Sub Category <sup>[B]</sup>
+    * calculate the burn rate of the promotion performed by overalls based on sub-category
 
-### > IMPLEMENTATION R PACKAGES ──
+##
 
-#### ⋈ Package DPLYR ─ suitable for data manipulating & analytic
+#### ⋈ Customer Analytics <sup>[3<sup>st</sup> chapter]</sup> ──
 
-* `select()`    ⍽ variable selection
-
-* `filter()`    ⍽ variable value filtration
-						
-* `mutate()`    ⍽ new variable creation based on the existed variable
-						
-* `summarise()` ⍽ variable value summarization
-						
-* `arrange()`   ⍽ variable arrangement based on it values
-
-#### ⋈ Package GGPLOT2 ─ suitable for data visualization using plot function
-
-            	⌐ syntax :> ggplot(data) + geom_type(aes(x,y,fill,color)) 
-
-#### ⋈ Package SCALES ─ suitable for supporting the process of data exploration
-
-* `comma()`   ⍽ variable format conversion (numerical format + separators)
-						
-* `percent()` ⍽ variable format conversion (numerical format + percent symbol)
+* Customers Transactions per Year
+    * Analysis of customer every year
+    * Analysis of the number of new customers each year
 
 
 
@@ -51,12 +44,21 @@ this <b>project focuses on the performance of each branch of the company.</b>
 
 #### ⋈ About <sup><b>DQLab</b></sup> Dataset ::
 
-![screenshot](dqlab_sales_store_table.png)
+The dataset used contains transactions from 2009 to 2012 with a raw data amount of 5500, including status orders divided into finished orders, returned orders and cancelled orders
 
+The dataset that has been given and will be used in this project contains the following data:
 
+```MySQL
+> OrderID`
+> Order Status
+> Customer
+> Order Date
+> Order Quantity
+> Sales
+> Discount %
+> Discount
+> Product Category
+> Product Sub-Category
+```
 
-## > ADDITIONAL INFORMATION ──
-
-#### ⋈ R Vers. 4.0.2
-
-#### ⋈ Rstudio Vers. 1.3.1073
+![dqlab_sales_store_table](https://user-images.githubusercontent.com/72337233/95158070-e90f2380-07c4-11eb-99e7-629354aedad9.png)
