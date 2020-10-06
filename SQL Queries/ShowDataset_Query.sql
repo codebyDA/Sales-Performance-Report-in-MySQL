@@ -1,4 +1,5 @@
-SELECT TOP (10) [order_id]
+SELECT 
+      [order_id]
       ,[order_status]
       ,[customer]
       ,[order_date]
@@ -8,7 +9,9 @@ SELECT TOP (10) [order_id]
       ,[discount_value]
       ,[product_category]
       ,[product_sub_category]
-  FROM [Sales Performance Report].[dbo].[dqlab_sales_store]
+      
+  FROM [dqlab_sales_store]
+  LIMIT 10
 
 
 +----------+----------------+--------------------+------------+----------------+----------+----------+----------------+------------------+--------------------------------+
